@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * Created by: Derek Barber
+ * Created on: 13-Oct-2015
+ * Created for: ICS3U
+ * Daily Assignment – Unit #3-09
+ * This program all the perfect squares between 1 and the number the user inputs
+*/
+
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

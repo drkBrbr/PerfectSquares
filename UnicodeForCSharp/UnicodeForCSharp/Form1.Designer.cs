@@ -34,7 +34,7 @@
             // 
             // btnShowUnicode
             // 
-            this.btnShowUnicode.Location = new System.Drawing.Point(68, 52);
+            this.btnShowUnicode.Location = new System.Drawing.Point(59, 12);
             this.btnShowUnicode.Name = "btnShowUnicode";
             this.btnShowUnicode.Size = new System.Drawing.Size(129, 23);
             this.btnShowUnicode.TabIndex = 0;
@@ -45,9 +45,9 @@
             // lstUnicode
             // 
             this.lstUnicode.FormattingEnabled = true;
-            this.lstUnicode.Location = new System.Drawing.Point(68, 81);
+            this.lstUnicode.Location = new System.Drawing.Point(59, 41);
             this.lstUnicode.Name = "lstUnicode";
-            this.lstUnicode.Size = new System.Drawing.Size(120, 95);
+            this.lstUnicode.Size = new System.Drawing.Size(129, 186);
             this.lstUnicode.TabIndex = 1;
             // 
             // frmUnicode

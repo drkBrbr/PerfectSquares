@@ -20,9 +20,13 @@ namespace UnicodeForCSharp
         private void btnShowUnicode_Click(object sender, EventArgs e)
         {
             this.lstUnicode.Items.Clear();
-            for (int loop = 65; loop<= 90; loop++)
+            for (int firstNumber = 65; firstNumber <= 90; firstNumber++)
             {
-                this.lstUnicode.Items.Add(Char.ConvertFromUtf32(loop) + " --> " + loop);
+                for (int secondNumber = 97; secondNumber <= 122; secondNumber++)
+                {
+                    this.lstUnicode.Items.Add(Char.ConvertFromUtf32(firstNumber) + " --> " + Char.ConvertFromUtf32(secondNumber));
+                }
+                
             }
 
         }
