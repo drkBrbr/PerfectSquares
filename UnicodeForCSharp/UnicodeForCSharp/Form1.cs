@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * Created by: Derek Barber
+ * Created on: 20-Oct-2015
+ * Created for: ICS3U
+ * Daily Assignment – Unit #3-13
+ * This program displays all lowercase letters in the alphabet for each uppercase letter in the alphabet
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
